@@ -1,0 +1,21 @@
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+body{
+    background: linear-gradient(to top, var(--bs-gray-700) 0%, var(--bs-secondary) 100%);}
+
+.container{
+    padding-top: 100px;
+
+    .title{
+        text-align: center;
+        p{
+            color: #fff;
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+}
